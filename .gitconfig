@@ -1,3 +1,2 @@
-[user]
-  name = Aravind Anbudurai
-  email = aru777@gmail.com
+[include]
+  path = .gitconfig.user
