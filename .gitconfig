@@ -1,2 +1,8 @@
 [include]
   path = .gitconfig.user
+
+[color]
+  status = auto
+  interactive = auto
+  ui = true
+  pager = true
