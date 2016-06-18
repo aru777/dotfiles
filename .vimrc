@@ -17,3 +17,5 @@ set softtabstop=8
 set shiftwidth=8
 set noexpandtab
 
+" ctrlp
+let g:ctrlp_show_hidden = 1
