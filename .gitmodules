@@ -13,3 +13,6 @@
 [submodule ".vim/bundle/ctrlp.vim"]
 	path = .vim/bundle/ctrlp.vim
 	url = git@github.com:ctrlpvim/ctrlp.vim.git
+[submodule "fonts"]
+	path = fonts
+	url = https://github.com/powerline/fonts

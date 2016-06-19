@@ -2,8 +2,10 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 
+" misc vim settings
 set rnu        " relative numbers
 set nu         " show the line number
+let mapleader = ","
 
 syntax on
 set background=dark
@@ -19,3 +21,6 @@ set noexpandtab
 
 " ctrlp
 let g:ctrlp_show_hidden = 1
+nnoremap <leader>T :CtrlPBufTag<CR>
+nnoremap <leader>R ::CtrlPMRUFiles<CR>
+
