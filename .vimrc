@@ -37,7 +37,6 @@ let g:ycm_warning_symbol = '!'
 let g:ycm_server_keep_logfiles = 1
 let g:ycm_server_log_level = 'info'
 let g:ycm_confirm_extra_conf = 0
-let g:ycm_global_ycm_extra_conf="/data/users/aru7/ycm_extra_conf.py"
 let g:ycm_complete_in_comments = 1
 let g:ycm_collect_identifiers_from_comments_and_strings = 1
 let g:ycm_seed_identifiers_with_syntax = 1
@@ -51,3 +50,4 @@ nnoremap <leader>t :YcmCompleter GetType<CR>
 let g:ycm_key_list_select_completion = ['<C-j>', '<Tab>']
 let g:ycm_key_list_previous_completion = ['<C-k>', '<S-Tab>']
 
+source ~/dotfiles-fb/fb-vimrc
