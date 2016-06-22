@@ -50,4 +50,8 @@ nnoremap <leader>t :YcmCompleter GetType<CR>
 let g:ycm_key_list_select_completion = ['<C-j>', '<Tab>']
 let g:ycm_key_list_previous_completion = ['<C-k>', '<S-Tab>']
 
+" shortcuts
+map <leader>ct :checktime<CR>
+map <leader>f :sort<CR>
+
 source ~/dotfiles-fb/fb-vimrc
