@@ -28,3 +28,9 @@
 [submodule ".vim/bundle/vim-tmux-navigator"]
 	path = .vim/bundle/vim-tmux-navigator
 	url = git@github.com:christoomey/vim-tmux-navigator.git
+[submodule ".vim/bundle/vim-obsession"]
+	path = .vim/bundle/vim-obsession
+	url = git@github.com:tpope/vim-obsession.git
+[submodule ".vim/bundle/thrift.vim"]
+	path = .vim/bundle/thrift.vim
+	url = git@github.com:solarnz/thrift.vim.git
