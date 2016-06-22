@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/home/aru7/dotfiles/.vim'
-let g:netrw_dirhist_2='/home/aru7/linux/include/linux/sched'
-let g:netrw_dirhist_3='/home/aru7/linux/include/linux'
-let g:netrw_dirhist_4='/home/aru7/dotfiles/.vim'
