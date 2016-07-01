@@ -11,13 +11,13 @@ syntax on
 set background=dark
 colorscheme solarized
 
-" kernel
 filetype plugin indent on
 syn on se title
-set tabstop=8
-set softtabstop=8
-set shiftwidth=8
-set noexpandtab
+set expandtab
+set smartindent
+set shiftwidth=2
+set tabstop=2
+set noswapfile
 
 " ctrlp
 let g:ctrlp_by_filename = 1
@@ -71,6 +71,13 @@ set laststatus=2
 let g:airline_powerline_fonts = 1
 let g:airline_theme = "simple"
 
+" fswitch
+nmap <silent> <Leader>fs :FSHere<cr>
+nmap <silent> <Leader>fr :FSRight<cr>
+nmap <silent> <Leader>fcr :FSSplitRight<cr>
+nmap <silent> <Leader>fl :FSLeft<cr>
+nmap <silent> <Leader>fcl :FSSplitLeft<cr>
+
 " YCM 
 let g:ycm_min_num_identifier_candidate_chars = 4
 let g:ycm_enable_diagnostic_signs = 0
@@ -82,6 +89,7 @@ let g:ycm_confirm_extra_conf = 0
 let g:ycm_complete_in_comments = 1
 let g:ycm_collect_identifiers_from_comments_and_strings = 1
 let g:ycm_seed_identifiers_with_syntax = 1
+let g:ycm_autoclose_preview_window_after_completion = 1
 
 nnoremap <leader>pg :YcmCompleter GoTo<CR>
 nnoremap <leader>gi :YcmCompleter GoToImprecise<CR>
