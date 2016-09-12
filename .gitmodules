@@ -4,9 +4,6 @@
 [submodule ".vim/bundle/vim-sensible"]
 	path = .vim/bundle/vim-sensible
 	url = git://github.com/tpope/vim-sensible.git
-[submodule ".vim/bundle/vim-colors-solarized"]
-	path = .vim/bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
 [submodule ".vim/bundle/flattened"]
 	path = .vim/bundle/flattened
 	url = git@github.com:romainl/flattened.git
@@ -37,3 +34,6 @@
 [submodule ".vim/bundle/vim-fswitch"]
 	path = .vim/bundle/vim-fswitch
 	url = git@github.com:derekwyatt/vim-fswitch.git
+[submodule ".vim/bundle/vim-colors-solarized"]
+	path = .vim/bundle/vim-colors-solarized
+	url = git@github.com:altercation/vim-colors-solarized.git
