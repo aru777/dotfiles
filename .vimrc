@@ -6,6 +6,9 @@ execute pathogen#infect()
 set rnu        " relative numbers
 set nu         " show the line number
 let mapleader = ","
+set textwidth=80
+
+imap jk <esc>:w<cr>
 
 syntax on
 set background=dark
@@ -18,6 +21,7 @@ set smartindent
 set shiftwidth=2
 set tabstop=2
 set noswapfile
+set splitright
 
 " ctrlp
 let g:ctrlp_by_filename = 1
@@ -30,6 +34,7 @@ let g:ctrlp_open_multiple_files = 'i'
 let g:ctrlp_arg_map = 1
 let g:ctrlp_lazy_update = 100
 let g:ctrlp_show_hidden = 1
+let g:ctrlp_open_new_file = 'r'
 
 let g:ctrlp_abbrev = {
   \ 'gmode': 't',

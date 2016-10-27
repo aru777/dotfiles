@@ -37,3 +37,21 @@
 [submodule ".vim/bundle/vim-colors-solarized"]
 	path = .vim/bundle/vim-colors-solarized
 	url = git@github.com:altercation/vim-colors-solarized.git
+[submodule ".vim/bundle/vim-dispatch"]
+	path = .vim/bundle/vim-dispatch
+	url = git@github.com:tpope/vim-dispatch.git
+[submodule ".vim/bundle/ctrlp_bdelete.vim"]
+	path = .vim/bundle/ctrlp_bdelete.vim
+	url = git@github.com:d11wtq/ctrlp_bdelete.vim.git
+[submodule ".vim/bundle/vim-windowswap"]
+	path = .vim/bundle/vim-windowswap
+	url = https://github.com/wesQ3/vim-windowswap.git
+[submodule ".vim/bundle/terminus"]
+	path = .vim/bundle/terminus
+	url = https://github.com/wincent/terminus.git
+[submodule ".vim/bundle/vim-surround"]
+	path = .vim/bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule ".vim/bundle/vim-repeat"]
+	path = .vim/bundle/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
