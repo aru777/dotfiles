@@ -83,6 +83,9 @@ nmap <silent> <Leader>fcr :FSSplitRight<cr>
 nmap <silent> <Leader>fl :FSLeft<cr>
 nmap <silent> <Leader>fcl :FSSplitLeft<cr>
 
+" easymotion
+
+
 " YCM 
 let g:ycm_min_num_identifier_candidate_chars = 4
 let g:ycm_enable_diagnostic_signs = 0
@@ -104,6 +107,13 @@ nnoremap <leader>t :YcmCompleter GetType<CR>
 
 let g:ycm_key_list_select_completion = ['<C-j>', '<Tab>']
 let g:ycm_key_list_previous_completion = ['<C-k>', '<S-Tab>']
+
+" UltiSnips
+let g:UltiSnipsExpandTrigger = "<C-t>"
+let g:UltiSnipsJumpForwardTrigger = "<Enter>"
+let g:UltiSnipsJumpBackwardTrigger = "<C-b>"
+
+let g:UltiSnipsEditSplit='vertical'
 
 " shortcuts
 map <leader>ct :checktime<CR>
