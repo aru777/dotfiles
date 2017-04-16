@@ -73,3 +73,6 @@
 [submodule "vim17/.vim/bundle/vim-obsession"]
 	path = vim17/.vim/bundle/vim-obsession
 	url = git@github.com:tpope/vim-obsession.git
+[submodule "vim17/.vim/bundle/vim-jdaddy"]
+	path = vim17/.vim/bundle/vim-jdaddy
+	url = git@github.com:tpope/vim-jdaddy.git
