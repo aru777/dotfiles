@@ -175,8 +175,8 @@ bar {
 }
 
 # gaps
-gaps inner 10
-gaps outer 10
+gaps inner 15
+gaps outer 1
 for_window [class="^.*"] border pixel 4
 smart_gaps on
 smart_borders on

@@ -23,4 +23,5 @@ ln -sf $DOTFILES_DIR/vim17/.vimrc $HOME
 ##### Manual steps
 # Change gtk 2.0 and 3.0 settings manually for fonts
 # Get rofi
+# pacman powerline-fonts
 
