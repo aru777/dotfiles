@@ -19,6 +19,9 @@ cp $DOTFILES_DIR/YosemiteSanFranciscoFont/*.ttf $HOME/.fonts/
 ln -sf $DOTFILES_DIR/vim17/.vim $HOME
 ln -sf $DOTFILES_DIR/vim17/.vimrc $HOME
 
+# Xresources
+ln -sf $DOTFILES_DIR/.Xresources $HOME
+
 #####
 ##### Manual steps
 # Change gtk 2.0 and 3.0 settings manually for fonts
