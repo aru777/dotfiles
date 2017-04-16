@@ -15,6 +15,10 @@ mkdir -p $HOME/.fonts
 # Yosemite San Francisco Font
 cp $DOTFILES_DIR/YosemiteSanFranciscoFont/*.ttf $HOME/.fonts/
 
+# vim setup
+ln -sf $DOTFILES_DIR/vim17/.vim $HOME
+ln -sf $DOTFILES_DIR/vim17/.vimrc $HOME
+
 #####
 ##### Manual steps
 # Change gtk 2.0 and 3.0 settings manually for fonts
