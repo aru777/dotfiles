@@ -42,25 +42,25 @@
 	url = git@github.com:d11wtq/ctrlp_bdelete.vim.git
 [submodule ".vim/bundle/vim-windowswap"]
 	path = .vim/bundle/vim-windowswap
-	url = https://github.com/wesQ3/vim-windowswap.git
+	url = git@github.com:wesQ3/vim-windowswap.git
 [submodule ".vim/bundle/terminus"]
 	path = .vim/bundle/terminus
-	url = https://github.com/wincent/terminus.git
+	url = git@github.com:wincent/terminus.git
 [submodule ".vim/bundle/vim-surround"]
 	path = .vim/bundle/vim-surround
-	url = https://github.com/tpope/vim-surround.git
+	url = git@github.com:tpope/vim-surround.git
 [submodule ".vim/bundle/vim-repeat"]
 	path = .vim/bundle/vim-repeat
-	url = https://github.com/tpope/vim-repeat.git
+	url = git@github.com:tpope/vim-repeat.git
 [submodule ".vim/bundle/ultisnips"]
 	path = .vim/bundle/ultisnips
-	url = https://github.com/SirVer/ultisnips.git
+	url = git@github.com:SirVer/ultisnips.git
 [submodule ".vim/bundle/vim-easymotion"]
 	path = .vim/bundle/vim-easymotion
-	url = https://github.com/easymotion/vim-easymotion.git
+	url = git@github.com:easymotion/vim-easymotion.git
 [submodule "YosemiteSanFranciscoFont"]
 	path = YosemiteSanFranciscoFont
-	url = https://github.com/supermarin/YosemiteSanFranciscoFont.git
+	url = git@github.com:supermarin/YosemiteSanFranciscoFont.git
 [submodule "vim17/.vim/bundle/vim-pathogen"]
 	path = vim17/.vim/bundle/vim-pathogen
 	url = git@github.com:tpope/vim-pathogen.git
