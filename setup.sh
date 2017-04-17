@@ -27,4 +27,6 @@ ln -sf $DOTFILES_DIR/.Xresources $HOME
 # Change gtk 2.0 and 3.0 settings manually for fonts
 # Get rofi
 # pacman powerline-fonts
+# https://aur.archlinux.org/packages/urxvt-fullscreen/
+# https://aur.archlinux.org/packages/urxvt-resize-font-git/
 

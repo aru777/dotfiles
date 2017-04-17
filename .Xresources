@@ -21,6 +21,14 @@ Xft.lcdfilter: lcddefault
 URxvt.scrollBar: false
 URxvt.font: xft:Inconsolata-g for Powerline.otf:size=18
 
+!! Extensions
+URxvt.perl-ext-common: fullscreen,resize-font
+URxvt.keysym.F11: perl:fullscreen:switch
+URxvt.resize-font.smaller: C-minus
+URxvt.resize-font.bigger: C-equal
+URxvt.resize-font.reset: C-0
+URxvt.resize-fond.show: C-question
+
 !!Source http://github.com/altercation/solarized
 
 *background: #002b36
