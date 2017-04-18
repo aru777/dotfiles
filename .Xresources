@@ -19,7 +19,7 @@ Xft.lcdfilter: lcddefault
 !XTerm*faceSize: 11
 
 URxvt.scrollBar: false
-URxvt.font: xft:Inconsolata-g for Powerline.otf:size=18
+URxvt.font: xft:Inconsolata-g for Powerline.otf:size=16
 
 !! Extensions
 URxvt.perl-ext-common: fullscreen,resize-font

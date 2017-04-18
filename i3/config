@@ -95,6 +95,7 @@ bindsym $mod+a focus parent
 set $localterm "1: Local"
 set $remote "2: Remote"
 set $browser "3: Browser"
+set $monitoring "10 Health"
 # switch to workspace
 bindsym $mod+1 workspace $localterm
 bindsym $mod+2 workspace $remote
@@ -105,7 +106,7 @@ bindsym $mod+6 workspace 6
 bindsym $mod+7 workspace 7
 bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
-bindsym $mod+0 workspace 10
+bindsym $mod+0 workspace $monitoring
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $localterm
@@ -117,7 +118,7 @@ bindsym $mod+Shift+6 move container to workspace 6
 bindsym $mod+Shift+7 move container to workspace 7
 bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
-bindsym $mod+Shift+0 move container to workspace 10
+bindsym $mod+Shift+0 move container to workspace $monitoring
 
 assign [class="Firefox"] $browser
 
@@ -178,7 +179,7 @@ bar {
 gaps inner 15
 gaps outer 1
 for_window [class="^.*"] border pixel 4
-smart_gaps on
+# smart_gaps on # off makes full screen looks like full screen
 smart_borders on
 
 # special keys audio and brightness
