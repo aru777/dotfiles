@@ -76,3 +76,6 @@
 [submodule "fonts"]
 	path = fonts
 	url = git@github.com:powerline/fonts.git
+[submodule "emacs17/.emacs.d/evil"]
+	path = emacs17/.emacs.d/evil
+	url = git@github.com:emacs-evil/evil.git
